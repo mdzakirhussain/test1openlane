@@ -1,0 +1,81 @@
+- status: 0 - openlane design prep
+  runtime_s: 2.54
+  runtime_ts: 0h0m2s540ms
+- status: 1 - synthesis - yosys
+  runtime_s: 1.11
+  runtime_ts: 0h0m1s108ms
+- status: 2 - sta - openroad
+  runtime_s: 0.37
+  runtime_ts: 0h0m0s370ms
+- status: 3 - floorplan initialization - openroad
+  runtime_s: 1.11
+  runtime_ts: 0h0m1s108ms
+- status: 4 - ioplace - openroad
+  runtime_s: 0.55
+  runtime_ts: 0h0m0s546ms
+- status: 5 - tap/decap insertion - openroad
+  runtime_s: 0.54
+  runtime_ts: 0h0m0s542ms
+- status: 6 - pdn generation - openroad
+  runtime_s: 0.54
+  runtime_ts: 0h0m0s543ms
+- status: 7 - global placement - openroad
+  runtime_s: 0.67
+  runtime_ts: 0h0m0s669ms
+- status: 8 - sta - openroad
+  runtime_s: 0.48
+  runtime_ts: 0h0m0s482ms
+- status: 9 - ioplace - openroad
+  runtime_s: 0.53
+  runtime_ts: 0h0m0s527ms
+- status: 10 - global placement - openroad
+  runtime_s: 0.6
+  runtime_ts: 0h0m0s597ms
+- status: 11 - sta - openroad
+  runtime_s: 0.47
+  runtime_ts: 0h0m0s474ms
+- status: 12 - resizer design optimizations - openroad
+  runtime_s: 2.04
+  runtime_ts: 0h0m2s36ms
+- status: 13 - detailed placement - openroad
+  runtime_s: 0.6
+  runtime_ts: 0h0m0s601ms
+- status: 14 - sta - openroad
+  runtime_s: 0.45
+  runtime_ts: 0h0m0s450ms
+- status: 15 - resizer design optimizations - openroad
+  runtime_s: 2.11
+  runtime_ts: 0h0m2s107ms
+- status: 16 - sta - openroad
+  runtime_s: 0.46
+  runtime_ts: 0h0m0s455ms
+- status: 17 - resizer timing optimizations - openroad
+  runtime_s: 1.91
+  runtime_ts: 0h0m1s907ms
+- status: 18 - sta - openroad
+  runtime_s: 0.45
+  runtime_ts: 0h0m0s454ms
+- status: 20 - write verilog - openroad
+  runtime_s: 0.51
+  runtime_ts: 0h0m0s512ms
+- status: 21 - sta - openroad
+  runtime_s: 0.45
+  runtime_ts: 0h0m0s448ms
+- status: 21 - global routing - openroad
+  runtime_s: 0.45
+  runtime_ts: 0h0m0s448ms
+- status: 22 - fill insertion - openroad
+  runtime_s: 0.64
+  runtime_ts: 0h0m0s643ms
+- status: 23 - detailed_routing - openroad
+  runtime_s: 1.61
+  runtime_ts: 0h0m1s608ms
+- status: 24 - wire lengths - openlane
+  runtime_s: 0.41
+  runtime_ts: 0h0m0s413ms
+- status: 25 - gdsii - magic
+  runtime_s: 0.49
+  runtime_ts: 0h0m0s489ms
+- status: 25 - lef - magic
+  runtime_s: 0.47
+  runtime_ts: 0h0m0s468ms

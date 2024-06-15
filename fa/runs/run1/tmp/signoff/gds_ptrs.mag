@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 8535 10679
+string GDS_END 123060
+string GDS_FILE /openlane/designs/fa/runs/run1/results/signoff/fa.magic.gds
+string GDS_START 45862
+<< end >>
